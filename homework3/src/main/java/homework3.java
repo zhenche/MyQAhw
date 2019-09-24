@@ -92,7 +92,36 @@ public class homework3 {
         System.out.print(" ");
        System.out.print("Learning");
 //----------------------------
+// Блок 7-го задания
+                int a7 = 10;
+                int b7 = 15;
+                double c7 = b7 + 38;
+//                int d7 = a7 + 12;
+//                double e7 = 12.3;
+                String s7 = "s7" + a7;
+                String s17 = a7 + "b7";
+//              String s27 = "a7";
+                String s37 = s17 + "a7";
+                String s47 = s37 + "b7";
+                System.out.println();
+                System.out.println(c7 + s47 + s7);
+//-------------------------------------------
+// Блок 8-го задания
+        ArrayList<Character> str = Arrays.asList('G', 'e', 'e', 'k', 's');
 
+        private static ArrayList<Character> transformIntToChar(int... values) {
+            ArrayList<Character> buffer = new ArrayList<>();
+            for (int i: values) {
+                buffer.add(((char) i));
+            }
+            return buffer;
+        }
+
+        private static void printList(ArrayList<Character> characters) {
+            for (char c : characters) {
+                System.out.print(c);
+            }
+        }
     }
 
 // }
