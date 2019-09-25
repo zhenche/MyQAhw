@@ -1,6 +1,13 @@
-public class Main {
+import java.util.ArrayList;
+
+class Main {
 
     public static void main(String[] args) {
+
+//        For (int i=0; i<ArreyList.length){
+//            printList(transformIntToChar(ArrayList[i]));
+//            i++;
+        printList(transformIntToChar(72,101,108,108,111,32,119,111,114,108,100));
 
     }
 
