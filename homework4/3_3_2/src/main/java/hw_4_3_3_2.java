@@ -1,4 +1,4 @@
-public class hw_4_2 {
+public class hw_4_3_3_2 {
 
     public static void main(String[] args) {
 for(int i=1;i<=100;i++) {
