@@ -18,8 +18,16 @@ public class HW4_1 {
             System.out.println(count);
             count --;
         }
+//  Раздел для for each
+int[] num10to20 = {10,11,12,13,14,15,16,17,18,19,20};
+for(int num : num10to20) {
+    System.out.println("num = " + num);
+}
 
+//  -----------------------------
 System.out.println(" ");
+// ------------------------------
+
 //  Раздел для цикла do..while (с постусловием)
 int count2=10;
 do {
