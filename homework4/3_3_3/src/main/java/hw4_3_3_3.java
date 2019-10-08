@@ -8,10 +8,8 @@ public class hw4_3_3_3 {
         int i=100;
         while (i >= 0) {
         Array[i] = i;
-        System.out.println(Array[i]);
+        System.out.print(Array[i]+ " ");
         i--;
         }
         }
-
-
 }

@@ -12,7 +12,8 @@ int[] Array = {10,20,32,14,16,19,45,34,15,64};
         summ=summ+Array[i];
         System.out.println("summ = " + summ + ",  " + "i= " + i);
          }
-//    System.out.println(summ);
+    System.out.println("--------------------------------------------");
+    System.out.println("summ 2..9 = " + summ);
 }
 
 }
