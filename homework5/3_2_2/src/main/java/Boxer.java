@@ -2,6 +2,7 @@ public class Boxer {
 /*
 "2. Implement the method fight() depending on weight, strength and age of the boxer:
 You should write dependency by yourself. The method should return true or false if our boxer won or lost.
+1) if ourBoxer.fight(anotherBoxer) returns true, then anotherBoxer.fight(outBoxer) should return false;
 */
     public int age;
     public int weight;
@@ -14,10 +15,12 @@ You should write dependency by yourself. The method should return true or false 
     }
 
     public boolean fight(Boxer anotherBoxer) {
-        // write your code here
+        Boxer boxer = new Boxer();
     }
 
     public static void main(String[] args) {
+
+        System.out.println(fight);
 
     }
 }
