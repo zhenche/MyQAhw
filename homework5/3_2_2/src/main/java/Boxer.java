@@ -15,15 +15,26 @@ You should write dependency by yourself. The method should return true or false 
     }
 
     public boolean fight(Boxer anotherBoxer) {
-        Boxer boxer = new Boxer();
+        int count=0;
+        boolean a=false;
+
+        if (this.age > anotherBoxer.age) {count++;}
+        // if (this.age == anotherBoxer.age) {first++;second++;}
+        if (this.weight > anotherBoxer.weight) {count++;}
+        // if (this.weight == anotherBoxer.weight) {first++;second++;}
+        if (this.strength > anotherBoxer.strength) {count++;}
+        // if (this.strength == anotherBoxer.strength) {first++;second++;}
+//        if (first <= second) {a=false;}  else {a=true;}
+        if (count>1) { a = true;}
+        return a;
     }
+
+
 
     public static void main(String[] args) {
-
-        System.out.println(fight);
-
+        Boxer boxer1 = new Boxer(35, 170, 88);
+        Boxer boxer2 = new Boxer(39, 173, 87);
+        System.out.println(boxer1.fight(boxer2));
     }
 }
 
-
-}
