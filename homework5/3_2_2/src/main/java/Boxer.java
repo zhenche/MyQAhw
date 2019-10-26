@@ -29,8 +29,6 @@ You should write dependency by yourself. The method should return true or false 
         return a;
     }
 
-
-
     public static void main(String[] args) {
         Boxer boxer1 = new Boxer(35, 170, 88);
         Boxer boxer2 = new Boxer(39, 173, 87);
