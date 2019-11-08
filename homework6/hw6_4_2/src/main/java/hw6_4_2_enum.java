@@ -13,8 +13,4 @@ public class hw6_4_2_enum {
             System.out.println(Seasons.SPRING);
             System.out.println(Seasons.FALL);
     }
-
-
-
-
 }
