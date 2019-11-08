@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Cat {
 
@@ -11,10 +12,10 @@ public class Cat {
     public static void main(String[] args) {
 
         ArrayList<Cat> cats = new ArrayList<>();
-        Cat thomas = new Cat("Cat_Thomas");
-        Cat behemoth = new Cat("Cat_Begemoth");
-        Cat philipp = new Cat("Cat_Fillipp");
-        Cat pushok = new Cat("Cat_Pushok");
+        Cat thomas = new Cat("Thomas");
+        Cat behemoth = new Cat("Begemoth");
+        Cat philipp = new Cat("Fillipp");
+        Cat pushok = new Cat("Pushok");
 
         cats.add(thomas);
         cats.add(behemoth);
@@ -22,10 +23,23 @@ public class Cat {
         cats.add(pushok);
 
 //        int thomasIndex = cats.indexOf(thomas);
-        int len = cats.size();
-        System.out.println(len);
-        for (Cat cat : cats) {
-            System.out.println(cat);
-        }
+//        int len = cats.size();
+//        System.out.println(len);
+//        for (Cat cat : cats) {
+//            System.out.println(cat);
+//        }
+
+        System.out.println(cats);
+        System.out.println(cats.toString());
+        System.out.println(Arrays.toString(cats));
+    }
+
+
+
+    @Owerride
+    public String toString() {
+        return "Cat{" +
+                "name='" + name + '\'' +
+                '}';
     }
 }
