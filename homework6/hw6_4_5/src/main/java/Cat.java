@@ -29,4 +29,11 @@ public class Cat {
 
         System.out.println(cats.toString());
     }
+
+    @Override
+    public String toString() {
+        return "Cat{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }
