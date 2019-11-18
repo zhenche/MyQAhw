@@ -54,13 +54,6 @@ public class Cat {
                if (max==catsArray[i].toString().length()) {
                    System.out.println(catsArray[i].toString());
                }
-
-
-
-
-
-
-
         }
     }
 
