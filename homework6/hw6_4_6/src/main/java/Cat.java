@@ -35,10 +35,6 @@ public class Cat {
         cats.add(bzdurka);
 
         int lenArr = cats.size();
-//        System.out.println(cats.size());
-
-//        System.out.println(cats.toString());
-
         Cat[] catsArray = cats.toArray(new Cat[0]);
         String str;
 //        Math.max(str.toString.length());

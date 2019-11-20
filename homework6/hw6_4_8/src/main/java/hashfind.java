@@ -1,6 +1,4 @@
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+import java.util.HashMap; import java.util.Iterator; import java.util.Map;
 
 public class hashfind {
 
@@ -40,8 +38,6 @@ public class hashfind {
             it.remove(); // дабы не было ConcurrentModificationException
         }
     }
-
-
 }
     
     
