@@ -9,5 +9,6 @@
         <module name="hw6_4_10" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="9" />
   </component>
 </project>
